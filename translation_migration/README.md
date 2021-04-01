@@ -42,7 +42,8 @@ npm run exec -- --project=../../project --output=../../project/strings.json
 * Transforms pug templates from `../../project/templates/dashboard` and `../../project/templates/form` folders.
 * Transforms json templates from `../../project/public/app/config` folder.
 
-> NOTE: A custom.json for EN (English) is required.
+## Important
 
-> NOTE: The custom.json files needs to be UTF8 encoded. UTF8 BOM is not supported.
+* A custom.json for EN (English) is required.
+* The custom.json files needs to be UTF8 encoded. UTF8 BOM is not supported.
 
